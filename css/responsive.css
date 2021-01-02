@@ -1,0 +1,122 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .demoskill-textbox{
+    padding-top: 20px;
+    text-align: justify;
+  }
+  
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .header{
+    background-color: #fff;
+    height: 80px;
+  }
+  .navbar-nav{
+    padding-top: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 0px 0px 50% 50%;
+-moz-border-radius: 0px 0px 50% 50%;
+-webkit-border-radius: 0px 0px 50% 50%;
+overflow: hidden;
+padding-bottom: 20px;
+  }
+  
+ .navbar-nav
+ .nav-item
+ .nav-link{
+  color: #1c7eff;
+ }
+.container .navbar-brand{
+  color:black;
+  font-weight: 600;
+}
+}
+
+@media (min-width:767px) and (max-width: 1000px) {
+  .typedname-box h3{
+    font-size: 24px;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 450px){
+.typedname-box h3{
+  font-size: 20px;
+}
+.cd-headline{
+  font-size: 20px;
+}
+}
+@media (min-width: 320px) and (max-width: 333px){
+  .typedname-box h3{
+    font-size: 18px;
+  }
+  }
+  
+@media (min-width: 320px) and (max-width: 410px){
+  .cd-headline b{
+    font-size: 20px!important;
+    font-weight: 500;
+  }
+  } 
+  @media (min-width: 320px) and (max-width: 420px){
+    .wrapper-typedbox{
+      margin-top:-55px;
+    }
+    }
